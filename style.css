@@ -1,3 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
-    background-color: aliceblue;
+    background-color: #424242;
+    left: 0;
+    top: 0;
+}
+
+.container{
+    margin-right: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 320px;
+    height: 300px;
+    width: 42vw;
+    
+    background-color: #5188e0;
+    border: 2px solid #1a3cab;
+    border-radius: 10px;
+}
+.register{
+    border: none;
+    border-radius: 20px;
+    background-color: #d0d1d2;
+    padding: 20px;
 }
